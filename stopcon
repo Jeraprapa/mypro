@@ -1,0 +1,2 @@
+docker-compose kill 
+docker rm -f $(docker ps -a -q)
